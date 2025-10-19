@@ -2,8 +2,8 @@ import requests
 from flask import Flask, jsonify, request
 import time
 app = Flask(__name__)
-title = "11CFF2"
-secret = "OEPGCEZEHRSGQ7N3NKPS18UWJNAUZRWOMP8YTXEYM4HN4958OM"   
+title = "1FDBA0"
+secret = "GDOPGE1F8T1HKWIDKT18PC4UAZWBTAQYS6H8N7CFWPCMYPJQ9H"   
 def GetUserId(ticket):return ticket[:16].replace("'", "").replace("-", "").replace(".", "")
 def Headers():return {"content-type": "application/json", "X-SecretKey": secret}
 def OculusValidationMadeByQwizx(ocid, nonce):
